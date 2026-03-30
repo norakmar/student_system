@@ -12,7 +12,7 @@ $sql = "SELECT COUNT(*) AS total FROM students";
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetch(PDO::FETCH_ASSOC);
-$total_students = $result['total'];
+$total_students = $result['total'];sgdfgdfgfd
 
 ?>
 
